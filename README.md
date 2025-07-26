@@ -20,7 +20,7 @@ ssh-kim interactive
 
 ```bash
 # Clone and install
-git clone <repository-url>
+git clone git@github.com:rapidrabbitsoft/ssh-kim-cli.git
 cd ssh-kim-cli
 npm install
 
@@ -67,7 +67,7 @@ This installs the CLI globally and makes the `ssh-kim` command available system-
 
 1. **Clone and Setup**
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:rapidrabbitsoft/ssh-kim-cli.git
    cd ssh-kim-cli
    npm install
    ```
