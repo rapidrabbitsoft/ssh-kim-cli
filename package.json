@@ -1,0 +1,72 @@
+{
+  "name": "ssh-kim-cli",
+  "version": "1.0.0",
+  "description": "A powerful command-line interface for managing SSH keys with encryption, search, and import/export capabilities",
+  "main": "cli.js",
+  "bin": {
+    "ssh-kim": "./cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node cli.js",
+    "cli": "node cli.js",
+    "cli:dev": "node --watch cli.js",
+    "test": "node test-cli.js",
+    "demo": "node examples/demo.js",
+    "prepublishOnly": "npm test"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "inquirer": "^9.2.15",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "clipboardy": "^3.0.0",
+    "conf": "^12.0.0",
+    "fs-extra": "^11.2.0"
+  },
+  "keywords": [
+    "ssh",
+    "key",
+    "manager",
+    "cli",
+    "command-line",
+    "encryption",
+    "security",
+    "terminal",
+    "ssh-keys",
+    "key-management",
+    "cryptography"
+  ],
+  "author": {
+    "name": "SSH Key Manager Team",
+    "email": "support@ssh-kim.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rapidrabbitsoft/ssh-kim-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rapidrabbitsoft/ssh-kim-cli/issues"
+  },
+  "homepage": "https://github.com/rapidrabbitsoft/ssh-kim-cli#readme",
+  "files": [
+    "cli.js",
+    "cli/",
+    "README.md",
+    "LICENSE"
+  ],
+  "preferGlobal": true,
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ]
+}
